@@ -1,6 +1,9 @@
 ## ✨ op-viem cli
 
-Wrapping op-viem in a cli to interact with optimism from the command line
+Wrapping op-viem in a cli to interact with optimism from the command line using react.js and bun
+
+![image](https://github.com/roninjin10/op-viem-cli/assets/35039927/a7bfe5cb-7527-4b05-b290-f36746a4965f)
+
 ## 🤝 Getting Started
 
 1. Install Node Modules
