@@ -1,0 +1,33 @@
+{
+  "name": "@evmts/example-bun",
+  "version": "0.0.1",
+  "private": true,
+  "contributors": [
+    "Will Cory <willcory10@gmail.com>"
+  ],
+  "scripts": {
+    "dev": "bun --watch src/index.tsx depositETH",
+    "op": "bun run src/index.tsx",
+    "build": "bun build src/index.tsx --compile --outfile op"
+  },
+  "dependencies": {
+    "@evmts/core": "^0.8.1",
+    "@roninjin10/op-viem": "^0.0.1-alpha.9",
+    "cac": "^6.7.14",
+    "ink": "^4.4.1",
+    "react": "^18.2.0",
+    "viem": "^1.10.8",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@evmts/bun-plugin": "^0.9.0",
+    "@evmts/ts-plugin": "^0.9.0",
+    "@openzeppelin/contracts": "^4.9.3",
+    "@types/live-server": "^1.2.1",
+    "@types/node": "^20.6.0",
+    "bun-types": "^1.0.1",
+    "solc": "0.8.21",
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.4"
+  }
+}
